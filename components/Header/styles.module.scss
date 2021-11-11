@@ -1,0 +1,27 @@
+#container {
+  height: 30vh;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+#logo_container {
+  width: 44%;
+
+  display: grid;
+  place-items: center;
+}
+
+#navbar {
+  width: 56%;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  font-size: 1.5rem;
+  font-weight: 400;
+}
